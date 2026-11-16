@@ -7,11 +7,7 @@ export function renderNavbar() {
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item has-text-weight-bold is-uppercase app-logo" href="#/overview">
-<<<<<<< HEAD
               <span class="icon has-text-primary"><i class="fas fa-leaf" aria-hidden="true"></i></span>
-=======
-              <figure class="image"><img src="../img/icon/icon.png" alt="logo" /></figure>
->>>>>>> 8e2563cc8f6c414e9eb3f300a344f4d29f7258b7
               <p><span class="is-hidden-mobile">${t("nav.brandSpan")}</span> ${t("nav.brand")}</p>
             </a>
 

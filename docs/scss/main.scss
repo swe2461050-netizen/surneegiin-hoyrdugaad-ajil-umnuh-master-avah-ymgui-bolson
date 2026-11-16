@@ -31,7 +31,6 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
 @import "./layouts/pageTableContentsLayout";
 @import "./components/imageModal";
 
-<<<<<<< HEAD
 .app-footer {
   margin-top: 3rem;
   padding: 2.5rem 1.5rem 1.25rem;
@@ -53,8 +52,6 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
 #calculation thead th { position: sticky; top: 0; background: #f4f8f5; z-index: 1; }
 #calculation .calc-amount { min-width: 90px; }
 
-=======
->>>>>>> 8e2563cc8f6c414e9eb3f300a344f4d29f7258b7
 // Mobile (<768px) → Sidebar = slide menu (hidden → open)
 // Tablet (≤1023px) → зөвхөн хэмжээ багасгана
 // Desktop (≥769px) → Sidebar = байнга харагдана (static)

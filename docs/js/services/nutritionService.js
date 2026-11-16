@@ -1,8 +1,5 @@
 import { DATA_MODE, LOCAL_NUTRITIONS_URL, API_NUTRITIONS_URL } from "../config.js";
-<<<<<<< HEAD
 import { getCurrentLanguage } from "../i18n/i18n.js";
-=======
->>>>>>> 8e2563cc8f6c414e9eb3f300a344f4d29f7258b7
 
 let nutritionCache = null;
 
@@ -19,7 +16,6 @@ export async function getNutritions() {
   }
 
   const data = await response.json();
-<<<<<<< HEAD
   const language = getCurrentLanguage();
   const localize = (value) => {
     if (Array.isArray(value)) return value.map(localize);
@@ -36,8 +32,4 @@ export async function getNutritions() {
     return { ...localized, province_en: item.province?.en ?? item.province, native_name: item.food_name?.mn ?? item.native_name ?? "" };
   });
   return nutritionCache;
-=======
-  nutritionCache = data;
-  return data;
->>>>>>> 8e2563cc8f6c414e9eb3f300a344f4d29f7258b7
 }

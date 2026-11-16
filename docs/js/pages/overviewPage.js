@@ -1,6 +1,5 @@
 import { t } from "../i18n/i18n.js";
 import { renderPageLayout } from "../layouts/pageLayout.js";
-<<<<<<< HEAD
 import { getNutritions } from "../services/nutritionService.js";
 
 export async function renderOverviewPage() {
@@ -34,17 +33,4 @@ export async function renderOverviewPage() {
       area.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showProvince(area.getAttribute("name")); } });
     });
   } catch { document.getElementById("overviewStats").textContent = t("overview.loadError"); }
-=======
-
-export function renderOverviewPage() {
-  const app = document.getElementById("app");
-
-  app.innerHTML = renderPageLayout({
-    id: "overview",
-    title: t("overview.title"),
-    content: `
-      <p>${t("overview.welcome")}</p>
-    `,
-  });
->>>>>>> 8e2563cc8f6c414e9eb3f300a344f4d29f7258b7
 }

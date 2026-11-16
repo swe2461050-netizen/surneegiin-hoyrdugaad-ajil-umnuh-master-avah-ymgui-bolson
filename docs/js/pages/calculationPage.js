@@ -1,5 +1,4 @@
 import { renderPageLayout } from "../layouts/pageLayout.js";
-<<<<<<< HEAD
 import { getNutritions } from "../services/nutritionService.js";
 import { getNutrientRequirements } from "../services/nutrientRequirementService.js";
 const nutrients = [["Energy (kcal)","Илчлэг (ккал)"],["Protein (g)","Уураг (г)"],["Fat (g)","Өөх тос (г)"],["Carbohydrate (g)","Нүүрс ус (г)"],["Calcium (mg)","Кальци (мг)"],["Iron (mg)","Төмөр (мг)"],["Vitamin C (mg)","С витамин (мг)"]];
@@ -28,17 +27,4 @@ export async function renderCalculationPage() {
     document.querySelectorAll(".calc-food,.calc-amount,#calcAge,#calcGender").forEach(input=>input.addEventListener("input",update));
     document.getElementById("foodFilter").addEventListener("input",event=>{const query=event.target.value.trim().toLocaleLowerCase();document.querySelectorAll("#calcContent tbody tr").forEach(row=>{row.hidden=!row.cells[0].textContent.toLocaleLowerCase().includes(query);});});
   } catch { document.getElementById("calcStatus").textContent="Хүнсний өгөгдөл ачаалж чадсангүй."; }
-=======
-
-export function renderCalculationPage() {
-  const app = document.getElementById("app");
-
-  app.innerHTML = renderPageLayout({
-    id: "calculation",
-    title: "Calculation",
-    content: `
-      <p>Welcome to the Calculation page.</p>
-    `,
-  });
->>>>>>> 8e2563cc8f6c414e9eb3f300a344f4d29f7258b7
 }
