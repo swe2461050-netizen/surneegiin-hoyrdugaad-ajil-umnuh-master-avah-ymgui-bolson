@@ -22948,6 +22948,9 @@ has-background-danger.is-hoverable:active {
 }
 
 /*# sourceMappingURL=main.css.map */
+<<<<<<< HEAD
 /* Chapter 2.10–2.13 additions */
 .app-footer{margin-top:3rem;padding:2.5rem 1.5rem 1.25rem;background:#f7f8f5;border-top:1px solid #e6e9e4;color:#52605a}.app-footer .title{color:#263b32}.app-footer a{color:#16845a}.footer-note{padding-top:1rem;border-top:1px solid #e2e6e1;font-size:.85rem}.province-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:.65rem}.province-button{justify-content:flex-start;border-color:#dce9e1}#calculation .table-container{max-height:68vh;overflow:auto}#calculation table{font-size:.88rem}#calculation thead th{position:sticky;top:0;background:#f4f8f5;z-index:1}#calculation .calc-amount{min-width:90px}
 .province-map{overflow:hidden;border:1px solid #e6e9e4;border-radius:1rem;background:#f7faf8;padding:.75rem}.province-map svg{display:block;width:100%;height:auto;max-height:490px}.province-map [name]{cursor:pointer;transition:fill .15s ease,opacity .15s ease}.province-map [name]:hover,.province-map [name]:focus,.province-map [name].is-selected{fill:#e79a48;outline:none}
+=======
+>>>>>>> 8e2563cc8f6c414e9eb3f300a344f4d29f7258b7
